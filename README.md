@@ -21,3 +21,6 @@ https://www.nasm.us/pub/nasm/releasebuilds/2.08/win32/nasm-2.08-win32.zip
 
 https://sourceforge.net/projects/mingw/
 
+https://www.cygwin.com/setup-x86.exe
+
+
