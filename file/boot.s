@@ -22,14 +22,14 @@ stack_top:
 
 .section .text
 .global _starts
-.extern kernel_main
+.extern __kernel_main
 .global screens
 #.type _start, @function
 _starts:
 	mov $stack_top, %esp
-	call kernel_main
-        ret
-	cli
+	call __kernel_main
+	ret
+        cli
 1:	hlt
 	jmp 1b
 #.size _start, . - _start
